@@ -18,7 +18,7 @@ margin: 0px auto;
 padding: 0px;
 line-height: 1.5em;
 width: 98%;
-max-width: 980px;
+max-width: 1980px;
 min-width: 250px;
 font-family: Times New Roman, serif;
 }
@@ -99,7 +99,7 @@ margin: 0px;
 }
 
 header h2 {
-font-size: 1.2em;
+font-size: 1.1em;
 font-style: italic;
 margin: 0em;
 padding-bottom: 0.5em;
