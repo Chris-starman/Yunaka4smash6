@@ -103,12 +103,12 @@ header h2 {
 font-size: 1.1em;
 font-style: italic;
 margin: 0em;
-padding-bottom: 0.5em;
 }
 header h3{
    font-size: 1.1em;
    color:green;
    border-bottom:1px black solid;
+   padding-bottom: 0.5em;
 }
 article p {
 margin: 0.2em 0.9em 0.7em 0em;
