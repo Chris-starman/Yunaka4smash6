@@ -99,14 +99,17 @@ header h1 {
 margin: 0px;
 }
 
-header h2 {
+header h3 {
 font-size: 1.1em;
 font-style: italic;
 margin: 0em;
 padding-bottom: 0.5em;
 border-bottom:1px black solid;
 }
-
+header h2{
+   font-size: 1.1em;
+   color:green'
+}
 article p {
 margin: 0.2em 0.9em 0.7em 0em;
 }
