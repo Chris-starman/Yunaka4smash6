@@ -20,7 +20,7 @@
       font-size: 16px;
       border: none;
              }
-
+<!--drop down stuff--> <!--
        .dropdown {
          position: relative;
          display: inline-block;
@@ -46,12 +46,69 @@
 
         .dropdown:hover .dropdown-content {display: block;}
 
-         .dropdown:hover .dropbtn {background-color: #3e8e41;}
+         .dropdown:hover .dropbtn {background-color: #3e8e41;}-->
         
 <!--end of drop down button code-->
 
-       
-    
+.navbar {
+  overflow: hidden;
+  background-color: #333;
+}
+
+.navbar a {
+  float: left;
+  font-size: 16px;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+.dropdown .dropbtn {
+  font-size: 16px;  
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+
+.navbar a:hover, .dropdown:hover .dropbtn {
+  background-color: red;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
     </style>
     <head>
     <!--
@@ -79,6 +136,20 @@
               Feel free to join our <a href="https://github.com/Chris-starman/Yunaka4smash6/discussions/1"> poll on the best 1st party Switch game of 2024?</strong></a></h12>
 
             <body>
+                <div class="navbar">
+  <a href="#home">Home</a>
+  <a href="#news">News</a>
+  <div class="dropdown">
+    <button class="dropbtn">Dropdown 
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content">
+      <a href="#">Link 1</a>
+      <a href="#">Link 2</a>
+      <a href="#">Link 3</a>
+    </div>
+  </div> 
+</div>
             <p>It's no secret that the Nintendo Switch is very much on it's way to being the most sucessful console ever in gaming history. 
                 Part of that is because it's a hybrid console, so it's perfect for letting you take the fun with you, anytime, anywhere. But the other is that it has a slew of fantastic games, 
                 from already-record beating 1st parties in several genres, to a lot surprisingly high quality 3rd party ports like <i>Doom</i>,<i>Witcher 3</i>, and even <i>Skyrim</i>. 
