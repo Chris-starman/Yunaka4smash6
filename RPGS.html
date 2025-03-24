@@ -81,7 +81,18 @@
 .tags{
     display: inline;
  }
-        
+    .column {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+}
+
+/* Clearfix (clear floats) */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}    
     
     </style>
     <head>
@@ -147,7 +158,15 @@ window.onclick = function(e) {
             <h1>Featured: Mario Wonder Review</h1>
              </a>
             <hr>
-            <div class="tags">
+            <div class="row">
+  <div class="column">
+    <img src="ultimate2.png" style="width:60%">
+  </div>
+  <div class="column">
+    <img src="super_smash_bros_ultimate_cast.png" style="width:60%">
+  </div>
+</div>
+          <!--  <div class="tags">
               <a href="Smash.html">
             <p><img src="ultimate2.png" width="420" height"250"></p>
             <h1>Smash Ultimate Review</h1>
@@ -157,5 +176,5 @@ window.onclick = function(e) {
             <h1>Top 10 Switch Games of All Time Review</h1>
              </a>
               </div>
-            </div>
+            </div> -->
 </html>
